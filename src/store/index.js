@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import auth from './auth'
+import text from './text'
 
 Vue.use(Vuex)
 
@@ -11,5 +13,7 @@ export default new Vuex.Store({
   actions: {
   },
   modules: {
+    auth,
+    text
   }
 })
